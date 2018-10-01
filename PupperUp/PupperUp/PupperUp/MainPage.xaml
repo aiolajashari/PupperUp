@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PupperUp"
+             x:Class="PupperUp.MainPage"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout BackgroundColor="#27BD97" Padding="0,35,0,0">
+        
+    <Image Source="pupper.png" HorizontalOptions="Center" HeightRequest="300"
+           WidthRequest="300"
+           />
+
+        <Label Text="Always happy to see you - WOOF!" TextColor="White"
+               FontSize="Large" HorizontalOptions="Center"/>
+
+        <StackLayout Margin="40,50,40,50" Spacing="15">
+
+            <Button BackgroundColor="Transparent" TextColor="White"
+                    Text="SIGN UP" BorderColor="White"  
+                    BorderRadius="500" BorderWidth="1" 
+                    FontSize="Medium" Clicked="ButtonSignUp"/>
+            
+            <Button BackgroundColor="Transparent" TextColor="White" 
+                    Text="LOG IN" BorderColor="White"  
+                    BorderRadius="500" BorderWidth="1"  
+                    FontSize="Medium" Clicked="ButtonLogIn"/>
+
+        </StackLayout>
+
+        <Label Text="&#169; PupperUp&#8482; 2018" HorizontalOptions="Center" FontSize="Micro"/>
+
+    </StackLayout>
+
+</ContentPage>

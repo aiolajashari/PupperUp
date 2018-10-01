@@ -1,0 +1,9 @@
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\obj\Debug\netstandard2.0\PupperUp.csprojAssemblyReference.cache
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\obj\Debug\netstandard2.0\PupperUp.csproj.CoreCompileInputs.cache
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\obj\Debug\netstandard2.0\PupperUp.AssemblyInfoInputs.cache
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\obj\Debug\netstandard2.0\PupperUp.AssemblyInfo.cs
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\obj\Debug\netstandard2.0\PupperUp.dll
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\obj\Debug\netstandard2.0\PupperUp.pdb
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\bin\Debug\netstandard2.0\PupperUp.deps.json
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\bin\Debug\netstandard2.0\PupperUp.dll
+C:\Users\jasha\source\repos\PupperUp\PupperUp\PupperUp\bin\Debug\netstandard2.0\PupperUp.pdb

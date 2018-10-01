@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PupperUp.LogIn"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout BackgroundColor="#27BD97" Padding="30,30,30,0">
+
+        <Image Source="txt.png" Margin="0,50,0,15"/>
+
+        <Label Text="Username" TextColor="White" FontSize="Large"/>
+        <Entry TextColor="White"/>
+
+        <Label Text="Password" TextColor="White" FontSize="Large"/>
+        <Entry IsPassword="True" TextColor="White"
+               Margin="0,0,0,25"/>
+
+        <Button BackgroundColor="Transparent" TextColor="White"  
+                    Text="LOG IN" BorderColor="White"  
+                    BorderRadius="500" BorderWidth="1"  
+                    FontSize="Medium" Margin="0,5,0,0"
+                    Clicked="ButtonLogInCheck"/>
+
+        <Button Text="Forgot your login details? Help centre." 
+                TextColor="White" BackgroundColor="Transparent"
+                BorderColor="Transparent" FontSize="Small"
+                Margin="0,0,0,40" Opacity="0.7"/>
+
+        <Button Text="Don't have an account? Sign Up" FontSize="Micro"
+                    HorizontalOptions="Center" BackgroundColor="Transparent" 
+                    Opacity="0.5" Clicked="ButtonSignUpRedirect"/>
+        
+        
+
+    </StackLayout>
+    
+</ContentPage>

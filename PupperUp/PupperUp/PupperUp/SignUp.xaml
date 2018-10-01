@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PupperUp.SignUp"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout BackgroundColor="#27BD97"  Padding="30,0,30,30" >
+
+        
+        <Image Source="txt.png"/>
+
+
+        <Label Text="Username" TextColor="White" FontSize="Large"/>
+        <Entry  x:Name="UserEntry" MaxLength="25" TextColor="White" Placeholder="Ex. JaneDoe97" PlaceholderColor="#29cba1"/>
+
+            <Label Text="Email" TextColor="White" FontSize="Large"/>
+        <Entry x:Name="EmailEntry" MaxLength="35" Keyboard="Email" TextColor="White" Placeholder="Ex. jdoe@gmail.com" PlaceholderColor="#29cba1"/>
+
+            <Label Text="Password" TextColor="White" FontSize="Large"/>
+        <Entry x:Name="PasswordEntry" IsPassword="True" MaxLength="20" TextColor="White" Placeholder="xxxxxx" PlaceholderColor="#29cba1"/>
+
+            <Label Text="Confirm Password" TextColor="White" FontSize="Large"/>
+        <Entry x:Name="ConfirmEntry" IsPassword="True" MaxLength="20" TextColor="White" Placeholder="xxxxxx" PlaceholderColor="#29cba1"/>
+
+
+        <StackLayout Spacing="20" Padding="20,30,20,0">
+            <Button BackgroundColor="Transparent" TextColor="White"  
+                    Text="CONFIRM" BorderColor="White"  
+                    BorderRadius="500" BorderWidth="1"  
+                    FontSize="Medium" Clicked="ButtonConfirm" />
+
+            <Button Text="Already have an account? Log in" FontSize="Micro"
+                    HorizontalOptions="Center" BackgroundColor="Transparent" 
+                    Opacity="0.5" Clicked="ButtonLogInRedirect"/>
+
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>

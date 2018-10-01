@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PupperUp.Home">
+             
+        <AbsoluteLayout BackgroundColor="#27BD97">
+
+        <Image Source="profileicon.png" Margin="10,10,5,5">
+            <Image.GestureRecognizers>
+
+                <TapGestureRecognizer Tapped="OnTapHome"/>
+
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Frame CornerRadius="30"  
+               OutlineColor="Transparent" 
+               Padding="0"
+               Margin="30,50,30,0">
+            <StackLayout>
+                <BoxView Color="#F3F4EC"
+                         HeightRequest="450"
+                         WidthRequest="300"
+                />
+            </StackLayout>
+        </Frame>
+
+        <Image Source="openbookmarkicon.png"
+               Margin="50,540,0,0">
+            <Image.GestureRecognizers>
+
+                <TapGestureRecognizer Tapped="OnTapBookmark"/>
+
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Source="xicon.png"
+               Margin="100,540,0,0"
+               Opacity="80">
+
+            <Image.GestureRecognizers>
+
+                <TapGestureRecognizer Tapped="OnTapX"/>
+
+            </Image.GestureRecognizers>
+            
+        </Image>
+
+        <Image Source="openhearticon.png"
+               Margin="150,525,0,0">
+
+            <Image.GestureRecognizers>
+
+                <TapGestureRecognizer Tapped="OnTapHeart"/>
+
+            </Image.GestureRecognizers>
+
+        </Image>
+
+        <Image Source="messageicon.png"
+               Margin="240,540,0,0">
+
+            <Image.GestureRecognizers>
+
+                <TapGestureRecognizer Tapped="OnTapMessage"/>
+
+            </Image.GestureRecognizers>
+
+        </Image>
+
+        <Image Source="locationicon.png"
+               Margin="290,540,0,0">
+
+            <Image.GestureRecognizers>
+
+                <TapGestureRecognizer Tapped="OnTapLocation"/>
+
+            </Image.GestureRecognizers>
+            
+        </Image>
+
+    </AbsoluteLayout>
+    
+</ContentPage>
